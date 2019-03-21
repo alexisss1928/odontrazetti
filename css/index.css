@@ -273,3 +273,31 @@ header {
       color:#fff;
       align-self: flex-start;
     }
+
+/*******************************
+************Opiniones***********
+*******************************/
+
+#opiniones {
+  padding: 20px;
+  text-align: center;
+}
+
+#cajon__pacientes {
+  display: flex;
+  padding: 20px;
+}
+
+ .paciente {
+   text-align: center;
+   padding:20px;
+ }
+
+ .paciente img {
+   border-radius: 50%;
+   width: 40%
+ }
+
+ .paciente p, .paciente cite {
+   font-size: .9em
+ }
