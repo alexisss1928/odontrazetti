@@ -3,6 +3,8 @@
 *******************************/
 html {
   box-sizing: border-box;
+  width: 100%;
+  scroll-behavior: smooth;
 }
 
 
@@ -14,9 +16,15 @@ img {
   max-width: 100%;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 *, body {
-  margin: 0;
   padding: 0;
+  margin:0;
   font-family: 'Montserrat', sans-serif;
   font-size: 100%;
   line-height: 1.618em;
@@ -102,8 +110,6 @@ header {
 *******************************/
 
 #navBar {
-  position: -webkit-sticky;
-  position:sticky;
   height: 70px;
   background-color: #3b3b3b;
   display: flex;
@@ -142,14 +148,14 @@ header {
 *******************************/
 
 #misVis {
-  background-image: linear-gradient(to top , rgba(22,22,22, .8),  rgba(22,22,22, .2)), url("../Assets/Fotos/IMG_8356.jpg");
+  background-image: linear-gradient(to top , rgba(22,22,22, 1),  rgba(22,22,22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
   background-size: cover;
   background-position: center center;
   display:flex;
 }
 
   #misVis > * {
-    padding: 0 40px 40px 40px;
+    padding: 50px 40px 40px 40px;
   }
 
   #mision{
@@ -165,7 +171,7 @@ header {
 *******************************/
 #especialidades {
   text-align: center;
-  padding: 30px;
+  padding: 50px 30px;
 }
 
 .especialidad {
@@ -279,7 +285,7 @@ header {
 *******************************/
 
 #opiniones {
-  padding: 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -301,3 +307,36 @@ header {
  .paciente p, .paciente cite {
    font-size: .9em
  }
+
+ /*******************************
+*************Contacto************
+*******************************/
+
+#contacto {
+  background-color: #3b3b3b;
+  color:#fff;
+  text-align: center;
+  padding:20px;
+}
+
+#cajon__contacto {
+  display: flex;
+  align-items: center;
+}
+
+#cajon__contacto div {
+  width:33%;
+  text-align: center;
+  padding: 20px;
+}
+
+#cajon__contacto a {
+  color:#fff;
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+#cajon__contacto span {
+  font-weight: bold;
+  color: #21b8c9
+}

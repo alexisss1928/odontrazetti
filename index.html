@@ -18,11 +18,11 @@
 <body>
   <header>
     <div id="side__social">
-      <a href="https://www.facebook.com/odontorazetti/?ref=br_tf"><i class="social fab fa-facebook-square my-3"></i></a>
-      <a href="https://www.instagram.com/odontorazetti/"><i class="social fab fa-instagram my-3"></i></a>
-      <a href="api.whatsapp.com/send?phone=584126186427"><i class="social fab fa-whatsapp-square my-3"></i></a>
-      <a href="api.whatsapp.com/send?phone=584126186427"><i class=" social fas fa-phone-square my-3"></i></a>
-      <a href="api.whatsapp.com/send?phone=584126186427"><i class="fas fa-envelope social my-3"></i></a>
+      <a href="https://www.facebook.com/odontorazetti/" target="_blank"><i class="social fab fa-facebook-square my-3"></i></a>
+      <a href="https://www.instagram.com/odontorazetti/" target="_blank"><i class="social fab fa-instagram my-3"></i></a>
+      <a href="api.whatsapp.com/send?phone=584126186427"><i class="social fab fa-whatsapp-square my-3" target="_blank"></i></a>
+      <a href=""><i class=" social fas fa-phone-square my-3"></i></a>
+      <a href=""><i class="fas fa-envelope social my-3"></i></a>
     </div>
     <div id="header__image">
       <img src="Assets/Logos/LogoAzul_ss.png" alt="">
@@ -39,11 +39,11 @@
     <p>Centro Odontologico Razetti</p>
     <ul>
       <li><a href="">Inicio</a></li>
-      <li><a href="">Mision y Vision</a></li>
-      <li><a href="">Especialidades</a></li>
-      <li><a href="">Preguntas</a></li>
-      <li><a href="">Comentarios</a></li>
-      <li><a href="">Contacto</a></li>
+      <li><a href="#misVis">Mision y Vision</a></li>
+      <li><a href="#especialidades">Especialidades</a></li>
+      <li><a href="#formulario">Preguntas</a></li>
+      <li><a href="#opiniones">Comentarios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
       <li><a id="CTAOd" href="">Para odontologos</a></li>
     </ul>
   </div>
@@ -150,30 +150,31 @@
     <div id="formulario">
       <div id="imgFormulario">
         <img src="Assets/Logos/LogoAzul_ss.png" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea ducimus reiciendis quisquam, ipsam omnis aliquam.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea ducimus reiciendis quisquam, ipsam omnis
+          aliquam.</p>
       </div>
       <div id="textoFormulario">
         <h2>Preguntas y sugerencias</h2>
         <form action="/my-handling-form-page" method="post">
           <div>
-              <label for="name">Nombre y apellido:</label><br>
-              <input type="text" id="name" />
+            <label for="name">Nombre y apellido:</label><br>
+            <input type="text" id="name" />
           </div>
           <div>
-              <label for="mail">Correo electronico:</label><br>
-              <input type="email" id="mail" />
+            <label for="mail">Correo electronico:</label><br>
+            <input type="email" id="mail" />
           </div>
           <div>
-              <label for="phone">Telefono:</label><br>
-              <input type="phone" id="phone" />
+            <label for="phone">Telefono:</label><br>
+            <input type="phone" id="phone" />
           </div>
           <div>
-              <label for="msg">Le invitamos a hacer alguna pregunta o sugerencia:</label><br>
-              <textarea id="msg" placeholder="Escriba su mensaje aqui"></textarea>
+            <label for="msg">Le invitamos a hacer alguna pregunta o sugerencia:</label><br>
+            <textarea id="msg" placeholder="Escriba su mensaje aqui"></textarea>
           </div>
           <input type="button" value="Enviar mensaje" class="btn">
-      </form>
-      
+        </form>
+
       </div>
     </div>
     <div id="opiniones">
@@ -181,19 +182,60 @@
       <div id="cajon__pacientes">
         <div class="paciente">
           <img src="Assets/Imagenes/paciente.jpg" alt="">
-          <p><cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maiores corporis exercitationem sed adipisci dolorem.</cite><br><b>- Juan Chiquito</b></p>
+          <p><cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maiores corporis exercitationem sed
+              adipisci dolorem.</cite><br><b>- Juan Chiquito</b></p>
         </div>
         <div class="paciente">
           <img src="Assets/Imagenes/perfil_mujer.png" alt="">
-          <p><cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maiores corporis exercitationem sed adipisci dolorem.</cite><br><b>- Juanita Dominguez</b></p>
+          <p><cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maiores corporis exercitationem sed
+              adipisci dolorem.</cite><br><b>- Juanita Dominguez</b></p>
         </div>
         <div class="paciente">
           <img src="Assets/Imagenes/paciente.jpg" alt="">
-          <p><cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maiores corporis exercitationem sed adipisci dolorem.</cite><br><b>- Pedro Marquez</b></p>
+          <p><cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maiores corporis exercitationem sed
+              adipisci dolorem.</cite><br><b>- Pedro Marquez</b></p>
+        </div>
+      </div>
+    </div>
+    <div id="contacto">
+      <h2>Contactanos</h2>
+      <div id=cajon__contacto>
+        <div id="datos">
+          <p><span>Direccion:</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ut
+            consectetur dolores
+            dolor magni velit.</p><br>
+          <p><span>Telefonos:</span><br>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div id="imagen">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1140.372047021545!2d-66.90102717078244!3d10.502074318170875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDMwJzA3LjUiTiA2NsKwNTQnMDEuNyJX!5e1!3m2!1ses-419!2sve!4v1553221756617"
+            width="100%" height="200" frameborder="1" style="border:0" allowfullscreen></iframe>
+          <!--img src="Assets/Fotos/IMG_7278.jpg" alt=""-->
+        </div>
+        <div id="redes">
+          <p><span>Horario:</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, at.</p><br>
+          <p><span>Redes:</span><br> <a href="https://api.whatsapp.com/send?phone=584126186427" target="_blank"><i
+                class="fab fa-whatsapp"></i></a> <a href="https://www.facebook.com/odontorazetti/" target="_blank"><i
+                class="fab fa-facebook"></i></a> <a href="https://www.instagram.com/odontorazetti/" target="_blank"><i
+                class="fab fa-instagram"></i></a></p>
         </div>
       </div>
     </div>
   </main>
+  <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navBar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
 </body>
 
 </html>
