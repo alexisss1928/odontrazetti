@@ -18,6 +18,9 @@ html {
   scroll-behavior: smooth;
 }
 
+#menuPhone {
+  display:none;
+}
 
 * , *:before , *:after {
   box-sizing:inherit;
@@ -314,6 +317,11 @@ header {
   text-align: center;
 }
 
+#opiniones h2{
+  color: #3b3b3b;
+}
+  
+
 #cajon__pacientes {
   display: flex;
   padding: 100px 20px 20px 20px;
@@ -380,7 +388,13 @@ header {
 *******************************/
 
 @media (max-width:600px) {
-  h1, h2 {
+#menuPhone {
+  display:block;
+  padding-right: 10px;
+  font-size: 1.7em
+}
+
+h1, h2 {
     font-size: 1.618em
   }
 /*******************************
@@ -429,6 +443,10 @@ header {
 
   #navBar ul {
     display: none;
+  }
+
+  #navBar img {
+    height: 40px;
   }
 
 /*******************************
@@ -491,6 +509,10 @@ header {
 *******************************/
 #opiniones {
   background-image: linear-gradient(to top , #fff, #fff )
+}
+
+#opiniones h2{
+  color: #21b8c9;
 }
 
 #cajon__pacientes {
