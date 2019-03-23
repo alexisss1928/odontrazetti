@@ -380,6 +380,9 @@ header {
 *******************************/
 
 @media (max-width:600px) {
+  h1, h2 {
+    font-size: 1.618em
+  }
 /*******************************
 *************Header*************
 *******************************/
@@ -392,9 +395,7 @@ header {
     width: 100%;
   }
 
-  #header__text h1 {
-    font-size: 1.618em
-  }
+
 
   #header__text p {
     display:none;
@@ -495,6 +496,10 @@ header {
 #cajon__pacientes {
   flex-direction:column;
   background-color: #fff
+}
+
+.paciente img {
+  width: 60%;
 }
 
 /*******************************
