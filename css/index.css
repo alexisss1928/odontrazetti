@@ -222,8 +222,12 @@ header {
 }
 
 /*******************************
-************Formulari***********
+************Formulario***********
 *******************************/
+
+..formFooter {
+  display:none;
+}
 
 #formulario {
   background-color: #21b8c9;
