@@ -31,7 +31,7 @@ width:30%;
 
 #odontHeader__cajon2 {
   width:70%;
-  background-image: url("../Assets/Fotos/IMG_8356.jpg");
+  background-image: linear-gradient(to top , rgba(22,22,22, .7),  rgba(22,22,22, .4)),url("../Assets/Fotos/IMG_8356.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -241,7 +241,7 @@ width:30%;
 #arrowDown {
   display: block;
   font-size: 4em;
-  color:#3b3b3b;
+  color:#21b8c9;
 }
 /*******************************
 ***********Servicios************
