@@ -42,15 +42,15 @@
     <div id="navBar">
       <img src="Assets/Logos/LogoAzul_s.png" alt="Logo del centro odontologico Razetti">
       <p>Centro Odontologico Razetti</p>
-        <ul>
-          <li><a href="#wrapper" class="active" data-scrollspy="#wrapper">Inicio</a></li>
-          <li><a href="#misVis" data-scrollspy="#misVis">Mision</a></li>
-          <li><a href="#especialidades" data-scrollspy="#especialidades">Especialidades</a></li>
-          <li><a href="#formulario" data-scrollspy="#formulario">Preguntas</a></li>
-          <li><a href="#opiniones" data-scrollspy="#opiniones">Comentarios</a></li>
-          <li><a href="#contacto" data-scrollspy="#contacto">Contacto</a></li>
-          <li id="CTAOd"><a href="odontologos.html">Soy odontólogo</a></li>
-        </ul>
+      <ul>
+        <li><a href="#wrapper" class="active" data-scrollspy="#wrapper">Inicio</a></li>
+        <li><a href="#misVis" data-scrollspy="#misVis">Mision</a></li>
+        <li><a href="#especialidades" data-scrollspy="#especialidades">Especialidades</a></li>
+        <li><a href="#formulario" data-scrollspy="#formulario">Preguntas</a></li>
+        <li><a href="#opiniones" data-scrollspy="#opiniones">Comentarios</a></li>
+        <li><a href="#contacto" data-scrollspy="#contacto">Contacto</a></li>
+        <li id="CTAOd"><a href="odontologos.html">Soy odontólogo</a></li>
+      </ul>
       <div id="menuPhone">
         <a href="odontologos.html">Soy odontologo</a>
       </div>
@@ -164,28 +164,6 @@
         <div id="textoFormulario">
           <h2>Preguntas y sugerencias</h2>
           <script type="text/javascript" src="https://form.jotformz.com/jsform/90807894836675"></script>
-          <!--
-          
-        <form>
-          <div>
-            <label for="name">Nombre y apellido:</label><br>
-            <input type="text" id="name" />
-          </div>
-          <div>
-            <label for="mail">Correo electronico:</label><br>
-            <input type="email" id="mail" />
-          </div>
-          <div>
-            <label for="phone">Telefono:</label><br>
-            <input type="phone" id="phone" />
-          </div>
-          <div>
-            <label for="msg">Le invitamos a hacer alguna pregunta o sugerencia:</label><br>
-            <textarea id="msg" placeholder="Escriba su mensaje aqui"></textarea>
-          </div>
-          <input type="button" value="Enviar mensaje" class="btn">
-        </form>
-      -->
         </div>
       </div>
       <div id="opiniones">
@@ -233,21 +211,21 @@
         </div>
       </div>
     </main>
-    <script>
-      window.onscroll = function () { myFunction() };
-
-      var navbar = document.getElementById("navBar");
-      var sticky = navbar.offsetTop;
-
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky")
-        } else {
-          navbar.classList.remove("sticky");
-        }
-      }
-    </script>
   </div>
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navBar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
