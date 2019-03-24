@@ -1,0 +1,182 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+* , *:before , *:after {
+  box-sizing:inherit;
+}
+
+
+/*******************************
+*************Header*************
+*******************************/
+#odontHeader {
+  display: flex;
+  padding: 20px 0
+}
+
+#odontHeader__cajon1 {
+width:30%;
+}
+
+#odontHeader__cajon2 {
+  width:70%;
+  background-image: url("../Assets/Fotos/IMG_8356.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+  #odontHeader__cajon2 div {
+    width: 60%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+.odontHeader__Desc {
+  background-image: linear-gradient(to right, #21b8c9, white);
+  margin:20px;
+  padding: 30px;
+  color:white;
+}
+
+/*******************************
+************Servicios***********
+*******************************/
+#servicios {
+  text-align: center;
+  padding: 50px;
+}
+
+#serviciosCajon {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.servicioItem {
+  width: 25%;
+  padding: 70px 30px
+}
+
+.servicioItem img {
+  width: 80px;
+  height: 80px
+}
+
+/*******************************
+*************Normas*************
+*******************************/
+#normativa {
+  text-align: center;
+  background-image: linear-gradient(to top , rgba(22,22,22, 1),  rgba(22,22,22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 10px
+}
+
+#normas {
+  display: flex;
+}
+
+.normas_cajon {
+  width: 50%
+}
+
+.normas_cajon ol {
+  margin: 40px;
+  text-align: left;
+  color: #fff;
+}
+
+.normas_cajon li {
+  margin-bottom: 16px;
+}
+
+/*******************************
+************Horarios************
+*******************************/
+#turnos {
+  text-align: center;
+  padding: 50px 10px
+}
+
+#turnosHorarios {
+  display: flex;
+  
+}
+
+.turnodesc {
+  margin: 20px;
+}
+
+.turnosDia {
+  background-image: linear-gradient(to right, #21b8c9, white);
+  margin:20px;
+  color: #3b3b3b;
+  width: 100%;
+  margin: 0;
+  padding: 15px;
+  font-weight: bold
+}
+
+.turnosDia__desc {
+  color: #fff;
+  background-color: #3b3b3b;
+  width: 100%;
+  margin: 0;
+  padding: 15px
+}
+
+
+/*******************************
+*************Media************
+*******************************/
+/*******************************
+*************Queries************
+*******************************/
+/*******************************
+*************Header*************
+*******************************/
+#odontHeader__cajon1 {
+  display:none;
+}
+
+#odontHeader__cajon2 {
+  width:100%;
+}
+
+/*******************************
+***********Servicios************
+*******************************/
+
+.servicioItem {
+  width: 50%;
+}
+
+/*******************************
+*************Normas*************
+*******************************/
+#normas {
+  display: flex;
+  flex-direction: column;
+}
+
+#normativa h2 {
+margin-bottom:40px;
+}
+
+.normas_cajon {
+  width: 100%
+}
+
+.normas_cajon ol {
+  margin: 0 40px 0 40px;
+}
+
+/*******************************
+************Horarios************
+*******************************/
+#turnosHorarios {
+  display: flex;
+  flex-direction: column
+}
