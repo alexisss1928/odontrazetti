@@ -1,10 +1,12 @@
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 * , *:before , *:after {
-  box-sizing:inherit;
+  -webkit-box-sizing:inherit;
+          box-sizing:inherit;
 }
 
 .fixed{
@@ -17,6 +19,8 @@ html {
 *************Header*************
 *******************************/
 #odontHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 80px 0 0 0
 }
@@ -32,13 +36,16 @@ width:30%;
   background-position: center;
 }
 
-  #odontHeader__cajon2 div {
+  #odontHeader__cajon2 .odontHeader__Desc {
     width: 60%;
     margin-left: auto;
     margin-right: 0;
   }
 
 .odontHeader__Desc {
+  background-image: -webkit-gradient(linear, left top, right top, from(#21b8c9), to(white));
+  background-image: -webkit-linear-gradient(left, #21b8c9, white);
+  background-image: -o-linear-gradient(left, #21b8c9, white);
   background-image: linear-gradient(to right, #21b8c9, white);
   margin:20px;
   padding: 30px;
@@ -57,8 +64,11 @@ width:30%;
 }
 
 #serviciosCajon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap
 }
 
 .servicioItem {
@@ -82,14 +92,19 @@ width:30%;
 
 .grid {
   padding-top: 50px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 50px 1fr 50px 1fr;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
-  align-items: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   }
 .grid img {
   border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  -webkit-box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+          box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   max-width: 100%;
 }
 
@@ -98,6 +113,9 @@ width:30%;
 *******************************/
 #normativa {
   text-align: center;
+  background-image: -webkit-gradient(linear , left bottom, left top , from(rgba(22,22,22, 1)),  to(rgba(22,22,22, .6))), url("../Assets/Fotos/IMG_8356.jpg");
+  background-image: -webkit-linear-gradient(bottom , rgba(22,22,22, 1),  rgba(22,22,22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
+  background-image: -o-linear-gradient(bottom , rgba(22,22,22, 1),  rgba(22,22,22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
   background-image: linear-gradient(to top , rgba(22,22,22, 1),  rgba(22,22,22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
   background-size: cover;
   background-position: center center;
@@ -105,6 +123,8 @@ width:30%;
 }
 
 #normas {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -131,6 +151,8 @@ width:30%;
 }
 
 #turnosHorarios {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   
 }
@@ -140,6 +162,9 @@ width:30%;
 }
 
 .turnosDia {
+  background-image: -webkit-gradient(linear, left top, right top, from(#21b8c9), to(white));
+  background-image: -webkit-linear-gradient(left, #21b8c9, white);
+  background-image: -o-linear-gradient(left, #21b8c9, white);
   background-image: linear-gradient(to right, #21b8c9, white);
   margin:20px;
   color: #3b3b3b;
@@ -188,30 +213,41 @@ width:30%;
 #odontHeader__cajon2 {
   width:100%;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center
+}
+
+#odontHeader__cajon2 .odontHeader__Desc {
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(70%, #3b3b3b), to(transparent));
+  background-image: -webkit-linear-gradient(right, #3b3b3b 70%, transparent);
+  background-image: -o-linear-gradient(right, #3b3b3b 70%, transparent);
+  background-image: linear-gradient(to left, #3b3b3b 70%, transparent);
+  color: #fff;
+  width: 100%;
+  text-align: center;
 }
 
 #odontHeader__cajon2 div {
-  background-image: linear-gradient(to left, #3b3b3b 70%, transparent);
-  color: #fff;
-  width: 90%
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
 }
 
 #arrowDown {
   display: block;
-  position: absolute;
-  bottom: 5%;
-  left:50%;
   font-size: 4em;
   color:#3b3b3b;
-  transform: translate(-50%, 0)
 }
 /*******************************
 ***********Servicios************
 *******************************/
 #servicios {
-  padding: 60px 10px 10px 10px;
+  padding: 80px 10px 10px 10px;
 }
 
 .servicioItem {
@@ -224,11 +260,24 @@ width:30%;
 }
 
 /*******************************
+*************Galeria************
+*******************************/
+.grid {
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+}
+
+/*******************************
 *************Normas*************
 *******************************/
 #normas {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #normativa h2 {
@@ -247,12 +296,12 @@ margin-bottom:40px;
 ************Horarios************
 *******************************/
 #turnosHorarios {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column
-}
-
-
-.grid {
-  grid-template-columns: 1fr;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column
 }
 }
