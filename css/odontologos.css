@@ -137,6 +137,7 @@ width:30%;
 /*******************************
 *************Header*************
 *******************************/
+@media (max-width:600px) {
 #odontHeader__cajon1 {
   display:none;
 }
@@ -179,4 +180,5 @@ margin-bottom:40px;
 #turnosHorarios {
   display: flex;
   flex-direction: column
+}
 }
