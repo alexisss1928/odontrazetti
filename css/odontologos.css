@@ -7,13 +7,18 @@ html {
   box-sizing:inherit;
 }
 
-
+.fixed{
+  position: fixed;
+  top:0;
+  left: 0;
+  width:100%;
+}
 /*******************************
 *************Header*************
 *******************************/
 #odontHeader {
   display: flex;
-  padding: 20px 0
+  padding: 80px 0 0 0
 }
 
 #odontHeader__cajon1 {
@@ -37,7 +42,7 @@ width:30%;
   background-image: linear-gradient(to right, #21b8c9, white);
   margin:20px;
   padding: 30px;
-  color:white;
+  color:#3b3b3b;
 }
 
 /*******************************
@@ -45,7 +50,7 @@ width:30%;
 *******************************/
 #servicios {
   text-align: center;
-  padding: 50px;
+  padding:80px 20px;
 }
 
 #serviciosCajon {
@@ -64,15 +69,16 @@ width:30%;
 }
 
 /*******************************
-**************Grid**************
+**************Galeria**************
 *******************************/
 #galeria{
- text-align: center;
- margin-bottom: 60px
+  padding:80px 20px;
+  text-align: center;
+  margin-bottom: 60px
 }
 
-.grid { 
-  padding: 50px;
+.grid {
+  padding-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
@@ -92,7 +98,7 @@ width:30%;
   background-image: linear-gradient(to top , rgba(22,22,22, 1),  rgba(22,22,22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
   background-size: cover;
   background-position: center center;
-  padding: 50px 10px
+  padding: 80px 20px
 }
 
 #normas {
@@ -118,7 +124,7 @@ width:30%;
 *******************************/
 #turnos {
   text-align: center;
-  padding: 50px 10px
+  padding: 80px 20px
 }
 
 #turnosHorarios {
@@ -161,6 +167,10 @@ width:30%;
 @media (max-width:600px) {
   *, body {
     font-size: 95%;
+  }
+
+  #odontHeader, #servicios, #galeria, #normativa, #turnos {
+    padding: 20px 10px
   }
 
 #odontHeader__cajon1 {
@@ -218,4 +228,5 @@ margin-bottom:40px;
 
 .grid {
   grid-template-columns: 1fr;
+}
 }
