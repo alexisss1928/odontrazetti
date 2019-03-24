@@ -45,7 +45,6 @@ img {
 }
 
 *, body {
-  
   padding: 0;
   margin:0;
   font-family: 'Montserrat', sans-serif;
@@ -371,7 +370,7 @@ header {
 
 #cajon__contacto a {
   color:#fff;
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 10px;
 }
 
@@ -393,8 +392,12 @@ header {
   background-color: #21b8c9;
   color:#fff;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   align-self: flex-end
+}
+
+*, body {
+  font-size: 95%;
 }
 
 h1, h2 {
@@ -450,6 +453,7 @@ h1, h2 {
 
   #navBar img {
     height: 40px;
+    padding-right: 10px
   }
 
 /*******************************
@@ -484,7 +488,7 @@ h1, h2 {
   }
 
   .especialidad__imagen img{
-    width:80%;
+    width:100%;
     margin-bottom:1em;
   }
 
@@ -537,4 +541,5 @@ h1, h2 {
 
 #cajon__contacto div {
   width:100%;
+}
 }
