@@ -45,6 +45,9 @@ width:30%;
   color:#3b3b3b;
 }
 
+#arrowDown {
+  display: none
+}
 /*******************************
 ************Servicios***********
 *******************************/
@@ -169,8 +172,13 @@ width:30%;
     font-size: 95%;
   }
 
-  #odontHeader, #servicios, #galeria, #normativa, #turnos {
+#servicios, #galeria, #normativa, #turnos, .servicioItem {
     padding: 20px 10px
+  }
+
+  #odontHeader {
+    width: 100%;
+    padding: 0;
   }
 
 #odontHeader__cajon1 {
@@ -179,13 +187,31 @@ width:30%;
 
 #odontHeader__cajon2 {
   width:100%;
+  height: 100vh;
+  display: flex;
+  align-items: center
 }
 
+#odontHeader__cajon2 div {
+  background-image: linear-gradient(to left, #3b3b3b 70%, transparent);
+  color: #fff;
+  width: 90%
+}
+
+#arrowDown {
+  display: block;
+  position: absolute;
+  bottom: 5%;
+  left:50%;
+  font-size: 4em;
+  color:#3b3b3b;
+  transform: translate(-50%, 0)
+}
 /*******************************
 ***********Servicios************
 *******************************/
 #servicios {
-  padding: 10px;
+  padding: 60px 10px 10px 10px;
 }
 
 .servicioItem {
