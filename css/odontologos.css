@@ -1,38 +1,40 @@
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-* , *:before , *:after {
-  -webkit-box-sizing:inherit;
-          box-sizing:inherit;
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-.fixed{
+.fixed {
   position: fixed;
-  top:0;
+  top: 0;
   left: 0;
-  width:100%;
+  width: 100%;
 }
+
 /*******************************
 *************Header*************
 *******************************/
+
 #odontHeader {
   width: 100%;
-  height:100vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 #odontHeader__cajon1 {
-  display:none;
+  display: none;
 }
 
 #odontHeader__cajon2 {
-  width:100%;
-  background-image: linear-gradient(to top , rgba(22,22,22, .7),  rgba(22,22,22, .4)),url("../Assets/Fotos/IMG_8356.jpg");
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(22, 22, 22, .7), rgba(22, 22, 22, .4)), url("../Assets/Fotos/IMG_8356.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -54,31 +56,33 @@ html {
   text-align: center
 }
 
-  #odontHeader__cajon2 .odontHeader__Desc {
-    width: 60%;
-  }
+#odontHeader__cajon2 .odontHeader__Desc {
+  width: 60%;
+}
 
 .odontHeader__Desc {
   background-image: -webkit-gradient(linear, left top, right top, from(#21b8c9), to(white));
   background-image: -webkit-linear-gradient(left, #21b8c9, white);
   background-image: -o-linear-gradient(left, #21b8c9, white);
   background-image: linear-gradient(to right, #21b8c9, white);
-  margin:20px;
+  margin: 20px;
   padding: 30px;
-  color:#3b3b3b;
+  color: #3b3b3b;
 }
 
 #arrowDown {
   display: block;
   font-size: 4em;
-  color:#21b8c9;
+  color: #21b8c9;
 }
+
 /*******************************
 ************Servicios***********
 *******************************/
+
 #servicios {
   text-align: center;
-  padding:80px 20px;
+  padding: 80px 20px;
 }
 
 #serviciosCajon {
@@ -86,7 +90,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap
+  flex-wrap: wrap
 }
 
 .servicioItem {
@@ -102,8 +106,9 @@ html {
 /*******************************
 **************Galeria**************
 *******************************/
-#galeria{
-  padding:80px 20px;
+
+#galeria {
+  padding: 80px 20px;
   text-align: center;
   margin-bottom: 60px
 }
@@ -116,25 +121,27 @@ html {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  }
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
 .grid img {
   border: 1px solid #ccc;
-  -webkit-box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-          box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   max-width: 100%;
 }
 
 /*******************************
 *************Normas*************
 *******************************/
+
 #normativa {
   text-align: center;
-  background-image: -webkit-gradient(linear , left bottom, left top , from(rgba(22,22,22, 1)),  to(rgba(22,22,22, .6))), url("../Assets/Fotos/IMG_8356.jpg");
-  background-image: -webkit-linear-gradient(bottom , rgba(22,22,22, 1),  rgba(22,22,22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
-  background-image: -o-linear-gradient(bottom , rgba(22,22,22, 1),  rgba(22,22,22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
-  background-image: linear-gradient(to top , rgba(22,22,22, 1),  rgba(22,22,22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(22, 22, 22, 1)), to(rgba(22, 22, 22, .6))), url("../Assets/Fotos/IMG_8356.jpg");
+  background-image: -webkit-linear-gradient(bottom, rgba(22, 22, 22, 1), rgba(22, 22, 22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
+  background-image: -o-linear-gradient(bottom, rgba(22, 22, 22, 1), rgba(22, 22, 22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
+  background-image: linear-gradient(to top, rgba(22, 22, 22, 1), rgba(22, 22, 22, .6)), url("../Assets/Fotos/IMG_8356.jpg");
   background-size: cover;
   background-position: center center;
   padding: 80px 20px
@@ -163,6 +170,7 @@ html {
 /*******************************
 ************Horarios************
 *******************************/
+
 #turnos {
   text-align: center;
   padding: 80px 20px
@@ -172,7 +180,6 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  
 }
 
 .turnodesc {
@@ -184,7 +191,7 @@ html {
   background-image: -webkit-linear-gradient(left, #21b8c9, white);
   background-image: -o-linear-gradient(left, #21b8c9, white);
   background-image: linear-gradient(to right, #21b8c9, white);
-  margin:20px;
+  margin: 20px;
   color: #3b3b3b;
   width: 100%;
   margin: 0;
@@ -200,126 +207,113 @@ html {
   padding: 15px
 }
 
-
 /*******************************
 *************Media************
 *******************************/
+
 /*******************************
 *************Queries************
 *******************************/
+
 /*******************************
 *************Header*************
 *******************************/
+
 @media (max-width:600px) {
   *, body {
     font-size: 95%;
   }
-
-#servicios, #galeria, #normativa, #turnos, .servicioItem {
+  #servicios, #galeria, #normativa, #turnos, .servicioItem {
     padding: 20px 10px
   }
-
   #odontHeader {
     width: 100%;
     padding: 0;
   }
-
-#odontHeader__cajon1 {
-  display:none;
-}
-
-#odontHeader__cajon2 {
-  width:100%;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center
-}
-
-#odontHeader__cajon2 .odontHeader__Desc {
-  background-image: -webkit-gradient(linear, right top, left top, color-stop(70%, #3b3b3b), to(transparent));
-  background-image: -webkit-linear-gradient(right, #3b3b3b 70%, transparent);
-  background-image: -o-linear-gradient(right, #3b3b3b 70%, transparent);
-  background-image: linear-gradient(to left, #3b3b3b 70%, transparent);
-  color: #fff;
-  width: 100%;
-  text-align: center;
-}
-
-#odontHeader__cajon2 div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center
-}
-
-#arrowDown {
-  display: block;
-  font-size: 4em;
-  color:#21b8c9;
-}
+  #odontHeader__cajon1 {
+    display: none;
+  }
+  #odontHeader__cajon2 {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+  #odontHeader__cajon2 .odontHeader__Desc {
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(70%, #3b3b3b), to(transparent));
+    background-image: -webkit-linear-gradient(right, #3b3b3b 70%, transparent);
+    background-image: -o-linear-gradient(right, #3b3b3b 70%, transparent);
+    background-image: linear-gradient(to left, #3b3b3b 70%, transparent);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+  }
+  #odontHeader__cajon2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+  }
+  #arrowDown {
+    display: block;
+    font-size: 4em;
+    color: #21b8c9;
+  }
 /*******************************
 ***********Servicios************
 *******************************/
-#servicios {
-  padding: 80px 10px 10px 10px;
-}
-
-.servicioItem {
-  width: 50%;
-}
-
-.servicioItem img {
-  width: 50px;
-  height: 50px
-}
-
+  #servicios {
+    padding: 80px 10px 10px 10px;
+  }
+  .servicioItem {
+    width: 50%;
+  }
+  .servicioItem img {
+    width: 50px;
+    height: 50px
+  }
 /*******************************
 *************Galeria************
 *******************************/
-.grid {
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
-}
-
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 /*******************************
 *************Normas*************
 *******************************/
-#normas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#normativa h2 {
-margin-bottom:40px;
-}
-
-.normas_cajon {
-  width: 100%
-}
-
-.normas_cajon ol {
-  margin: 0 40px 0 40px;
-}
-
+  #normas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #normativa h2 {
+    margin-bottom: 40px;
+  }
+  .normas_cajon {
+    width: 100%
+  }
+  .normas_cajon ol {
+    margin: 0 40px 0 40px;
+  }
 /*******************************
 ************Horarios************
 *******************************/
-#turnosHorarios {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column
-}
+  #turnosHorarios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
 }
