@@ -86,6 +86,7 @@ header {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 80%, rgb(255, 255, 255) 100%), url("../Assets/Stock/checkup-dentist-tool-instrument-young/3124.jpg");
   background-size: cover;
   background-position: center center;
+  animation: slide 30s infinite;
   padding: 20px;
 }
 
@@ -129,7 +130,7 @@ header {
   width: 250px;
   border-radius: 0 20px 0 20px;
   border: solid 2px #21b8c9;
-  animation: slide 20s infinite;
+  animation: slide 30s infinite;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
@@ -137,24 +138,24 @@ header {
 
   @keyframes slide{
     25% {
-        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 80%, rgb(255, 255, 255) 100%),url("../Assets/Stock/back/OG2OH50.jpg");
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 80%, rgb(255, 255, 255) 100%), url("../Assets/Stock/back/OG2OH50.jpg");
         background-position: center center;
+        opacity: 1;
       }
     50% {
-        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 80%, rgb(255, 255, 255) 100%),url("../Assets/Stock/back2/1740.jpg");
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 80%, rgb(255, 255, 255) 100%), url("../Assets/Stock/back2/1740.jpg");
         background-position: center center;
+        opacity: 1;
         }
     75% {
-        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 80%, rgb(255, 255, 255) 100%),url("../Assets/Stock/back3/OBDTHX0.jpg");
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 80%, rgb(255, 255, 255) 100%), url("../Assets/Stock/back3/OBDTHX0.jpg");
         background-position: center center;
+        opacity: 1;
         }
     100% {
-        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 80%, rgb(255, 255, 255) 100%),url("../Assets/Stock/cirugia/9353.jpg");
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 80%, rgb(255, 255, 255) 100%), url("../Assets/Stock/cirugia/9353.jpg");
         background-position: center center;
+        opacity: 1;
       }
   }
 
